@@ -1,5 +1,17 @@
-body {
+.page {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #F5F5F7;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+.section__content {
+  max-width: 1200px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

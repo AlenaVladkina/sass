@@ -1,0 +1,16 @@
+$colorMap: (
+    background: #F5F5F7,
+    backgroundDark: #454545,
+);
+
+@function color ($key){
+@return map-get($colorMap, $key );
+};
+    
+$sizeMap: (
+    default: 16px,
+);
+
+@function size ($key: 'default'){
+@return map-get($sizeMap, $key );
+};
